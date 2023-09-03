@@ -19,12 +19,10 @@ const ServiceCard = ({ index, title, icon }: Props) => {
         className="w-full green-pink-gradient p-[1px] rounded-[20px] hover:shadow-card transition-shadow "
       >
         <div className="bg-primary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-          <Image
+          <img
             src={icon}
-            width={60}
-            height={60}
             alt="icon"
-            className="object-contain"
+            className="w-16 h-16 object-contain"
           />
           <h3 className="text-white text-[20px] font-bold text-center ">
             {title}
